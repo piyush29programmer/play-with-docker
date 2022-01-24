@@ -1,0 +1,6 @@
+When running my container, I added the –rm and -it switches simply for demo purposes. In reality, that server container would be 
+long-running, so I’d run it without those switches. Here’s why I used the switches:
+
+The -it switch allows me to stop the container using Ctrl-C from the command-line
+
+The –rm switch ensures that the container is deleted once it has stopped
